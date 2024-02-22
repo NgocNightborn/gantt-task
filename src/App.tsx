@@ -1,5 +1,4 @@
-import { useState } from 'react'
-import { Gantt, Task, ViewMode, StylingOption} from 'gantt-task-react';
+import { Gantt, Task, ViewMode } from 'gantt-task-react';
 import "gantt-task-react/dist/index.css";
 import TaskListHeader from './components/TaskListHeader';
 import TaskListTable from './components/TaskListTable';
@@ -7,11 +6,11 @@ import TaskListTable from './components/TaskListTable';
 const tasks: Task[] = [
   {
     start: new Date(2020, 1, 1),
-    end: new Date(2020, 1, 10),
+    end: new Date(2020, 1, 5),
     name: 'Abords et jardins - Rousseau',
     id: 'Task 1',
     type:'task',
-    progress: 100,
+    progress: 45,
     isDisabled: true,
     styles: { progressColor: '#ffbb54', progressSelectedColor: '#ff9e0d', '& .sdaluyt': 'white' },
   },

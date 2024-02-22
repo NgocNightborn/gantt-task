@@ -9,10 +9,19 @@
 }
 
 .styled-div svg g text {
-  fill: black;
+  fill: #5D6776;
   text-overflow: ellipsis;
+  alignment-baseline: middle;
 }
 
 .styled-div ._KxSXS g {
   filter: drop-shadow(2px 1px 1px rgba(0,0,0,0.5));
+}
+
+.rowLines line {
+  stroke: none;
+}
+
+.ticks line {
+  stroke: none;
 }
