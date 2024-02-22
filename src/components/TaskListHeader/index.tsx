@@ -8,7 +8,10 @@ export default function TaskListHeader({headerHeight}) {
         display: 'flex',
         alignItems: 'end',
         padding: '0 0 0 16px',
-        color: '#C0C6CE'
+        color: '#C0C6CE',
+        borderTop: '1px solid #EEEDED',
+        borderLeft: '1px solid #EEEDED',
+        borderTopLeftRadius: '8px'
       }}
     >
       Worksites

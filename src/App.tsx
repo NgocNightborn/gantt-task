@@ -6,7 +6,7 @@ import TaskListTable from './components/TaskListTable';
 const tasks: Task[] = [
   {
     start: new Date(2020, 1, 1),
-    end: new Date(2020, 1, 5),
+    end: new Date(2020, 1, 28),
     name: 'Abords et jardins - Rousseau',
     id: 'Task 1',
     type:'task',
@@ -80,10 +80,11 @@ function App() {
   return (
     <div className='styled-div'>
       <Gantt 
-        tasks={tasks} 
+        tasks={tasks}
+        viewMode={ViewMode.Day}
+        
         TaskListHeader={(props) => <TaskListHeader {...props} />}
         TaskListTable={(props) => <TaskListTable {...props} /> }
-        viewMode={ViewMode.Day}
         barCornerRadius={8}
         barBackgroundColor='white'
         barProgressColor='white'
