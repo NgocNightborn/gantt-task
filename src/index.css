@@ -1,3 +1,13 @@
-.gantt-task-name {
-  fill: #000000; /* Change the color value to your desired color */
+.styled-div {
+  & ._2dZTy {
+    fill: white
+  };
+
+  & ._KxSXS rect {
+    fill: yellow;
+  }
+  & ._KxSXS rect text {
+    color: black;
+  }
 }
+
