@@ -4,10 +4,15 @@
   };
 
   & ._KxSXS rect {
-    fill: yellow;
-  }
-  & ._KxSXS rect text {
-    color: black;
-  }
+    fill: white;
+  };
 }
 
+.styled-div svg g text {
+  fill: black;
+  text-overflow: ellipsis;
+}
+
+.styled-div ._KxSXS g {
+  filter: drop-shadow(2px 1px 1px rgba(0,0,0,0.5));
+}
