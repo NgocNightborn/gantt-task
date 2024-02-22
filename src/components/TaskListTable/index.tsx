@@ -4,7 +4,7 @@ import React from 'react'
 export default function TaskListTable({rowHeight, tasks, rowWidth}) {
   return (
     <div style={{ border: "1px solid #EEEDED" }}>
-      {tasks.map((task: Task, i) => {
+      {tasks.map((task: Task) => {
         return (
           <div 
             key={task.id}
