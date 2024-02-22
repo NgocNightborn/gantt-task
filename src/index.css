@@ -1,36 +1,31 @@
 .styled-div {
   & ._2dZTy {
-    fill: white
-  };
+    fill: white;
+  }
 
   & ._KxSXS rect {
     fill: white;
-  };
+  }
 }
 
 .content g text {
-  fill: #5D6776;
+  fill: #5d6776;
   text-overflow: ellipsis;
   alignment-baseline: middle;
   font-weight: bold;
-  
 }
 
 ._KxSXS g {
-  filter: drop-shadow(2px 1px 1px rgba(0,0,0,0.5));
+  filter: drop-shadow(2px 1px 1px rgba(0, 0, 0, 0.5));
 }
 
 .rowLines line {
   stroke: none;
 }
 
-.ticks line {
-  stroke: none;
-}
-
 ._CZjuD {
-  border-bottom: 1px solid #EEEDED;
-  border-right: 1px solid #EEEDED;
+  border-bottom: 1px solid #eeeded;
+  border-right: 1px solid #eeeded;
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
 }
@@ -55,7 +50,7 @@
   text-anchor: start;
 }
 
-.ticks line:nth-child(7n-1) {
+/* .ticks line:nth-child(7n-1) {
   stroke: #5D6776;
   &::after {
     content: "testtjeoitjeriojg";
@@ -69,4 +64,4 @@
 
 .ticks line:nth-child(7n) {
   stroke: #5D6776;
-}
+} */

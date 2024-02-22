@@ -1,5 +1,4 @@
 import { Task } from 'gantt-task-react'
-import React from 'react'
 
 export default function TaskListTable({rowHeight, tasks, rowWidth}) {
   return (
